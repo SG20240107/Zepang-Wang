@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zepang Wang</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff;
+        }
+        header {
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1em 2em;
+            border-bottom: 1px solid #eee;
+        }
+        header nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        .profile-banner {
+            background: url('8957993.jpg') center/cover no-repeat;
+            height: 250px;
+        }
+        .profile-card {
+            background: white;
+            padding: 2em 4em;
+            display: flex;
+            border-bottom: 1px solid #eee;
+            gap: 3em;
+        }
+        .profile-left {
+            width: 320px;
+            padding: 1em;
+            border-right: 1px solid #ddd;
+        }
+        .profile-left img {
+            width: 100px;
+            border-radius: 50%;
+        }
+        .profile-left h2 {
+            margin: 0.5em 0 0 0;
+        }
+        .profile-left .info {
+            margin: 0.3em 0;
+        }
+        .profile-left button {
+            padding: 0.5em 1em;
+            margin-right: 0.5em;
+            border: none;
+            cursor: pointer;
+        }
+        .black-btn { background: black; color: white; }
+        .white-btn { border: 1px solid black; background: white; }
+
+        .profile-right {
+            flex-grow: 1;
+            padding-left: 2em;
+        }
+        .profile-right .tabs {
+            margin-bottom: 1em;
+        }
+        .tabs a {
+            margin-right: 1em;
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1em;
+        }
+        .gallery img {
+            width: 100%;
+            display: block;
+        }
+        .video-section {
+            margin: 1em 0;
+        }
+        .about-section {
+            margin: 1em 0;
+            font-family: 'Georgia', serif;
+            background: #f9f9f9;
+            padding: 1em;
+            border-left: 4px solid #333;
+            border-radius: 4px;
+        }
+        .contact-section {
+            margin: 1em 0;
+        }
+        .contact-section i {
+            margin-right: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div><strong>ZW</strong></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Me</a>
+            <a href="#">Project</a>
+            <a href="#">My experience</a>
+        </nav>
+    </header>
+    <div class="profile-banner"></div>
+    
+    <div class="profile-card">
+        <div class="profile-left">
+            <img src="IMG_7567.PNG" alt="Profile">
+            <h2>Zepang Wang</h2>
+            <div class="info">students at the University of California, Davis</div>
+            <div class="info">📍 USA | 🟢 Open for work</div>
+            <button class="black-btn">Hire Now</button>
+            <button class="white-btn">Recent Work</button>
+            <div class="video-section">
+                <video controls width="100%">
+                    <source src="3e1bc4698e0042109f994d87e124f323.MOV" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="about-section">
+                <h4>About Me</h4>
+                <p>Hey there 👋 I’m Zepang Wang — an Electrical Engineering undergrad at UC Davis, currently diving deep into circuits, code, and coffee. I love building things that work, whether it's low-level hardware hacks or high-level system design. My next move? Aiming for UCLA to push my skills even further. Always up for a challenge, always learning, and always shipping.</p>
+            </div>
+            <div class="contact-section">
+                <h4>Contact me</h4>
+                <p><i class="fas fa-phone"></i> +1 530 808 9337</p>
+                <p><i class="fas fa-envelope"></i> ggss20240107@gamil.com</p>
+                <p>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                </p>
+            </div>
+        </div>
+        <div class="profile-right">
+            <div class="tabs">
+                <a href="#">CS Projects</a>
+                <a href="#">Patent</a>
+                <a href="#">Award</a>
+                <a href="#">College Life</a>
+            </div>
+            <div class="gallery">
+                <img src="c84a8fd1ecac03174476c72491794de7.JPG" alt="1">
+                <img src="3a09cb7a68ac9845ba35385c8897eaa6.JPG" alt="2">
+                <img src="IMG_0166.JPG" alt="3">
+                <img src="523cc41d4efafb16dc0c7f4c1f334e1b.JPG" alt="4">
+                <img src="IMG_0109.JPG" alt="5">
+                <img src="e96b1ab83a9c998b8c0abf8711209e1a.JPG" alt="6">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
